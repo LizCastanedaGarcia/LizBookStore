@@ -10,4 +10,5 @@
 11-01-2023 12:42 Install Microsoft.EntityFrameworkCore.Relational 5.0.17  and Microsoft.EntityFrameworkCore.SqlServer 5.0.17
 11-01-2023 12:45 Delet Migration folder
 11-01-2023 12:48 Install Microsoft Identity.Entity Framework Core
+11-01-2023 12:50 namespace LizBookStore.DataAccess.Data
 

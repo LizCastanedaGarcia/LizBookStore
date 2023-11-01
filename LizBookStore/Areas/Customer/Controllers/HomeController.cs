@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace LizBookStore.Controllers
+namespace LizBookStore.Area.Customer.Controllers
 
 {
     [Area("Customer")]

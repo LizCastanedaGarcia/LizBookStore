@@ -16,4 +16,5 @@
 11-01-2023 12:59 Add References to DataAccess and Model
 11-01-2023 13:00 Rename Models folder to ViewModels
 11-01-2023 13:03 Rename namespace to namespace LizBookStore.Models.ViewModels
+11-01-2023 13:08 Add using LizBookStore.DataAccess.Data;
 

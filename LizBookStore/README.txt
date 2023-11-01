@@ -25,5 +25,7 @@
 11-01-2023 13:24 Add {area=Customer} to pattern in Startup.cs
 11-01-2023 13:27 Move HomeController.cs and delete Data and Models
 11-01-2023 13:29 Add [Area("Customer")] to HomeController.cs
+11-01-2023 13:30 Move View/Home to Area
+
 
 

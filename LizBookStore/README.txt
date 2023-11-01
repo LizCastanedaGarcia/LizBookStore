@@ -21,4 +21,4 @@
 11-01-2023 13:15 Change the properties public static class SD
 11-01-2023 13:17 Add 3 references to Utility project
 11-01-2023 13:19 In DataAccess project add models and utility references
-
+11-01-2023 13:21 Add Customer area to Areas

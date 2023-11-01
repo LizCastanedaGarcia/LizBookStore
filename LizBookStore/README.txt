@@ -28,6 +28,7 @@
 11-01-2023 13:30 Move View/Home to Area
 11-01-2023 13:32 Modify the namespace to namespace LizBookStore.Area.Customer.Controllers
 11-01-2023 13:35 Modify ViewStart.cshtml Layout = "~/Views/Shared/_Layout.cshtml";
+11-01-2023 13:43 Delete Controllers folder
 
 
 

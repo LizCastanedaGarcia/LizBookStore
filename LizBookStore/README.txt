@@ -8,4 +8,5 @@
 11-01-2023 12:26 Change drop menu to Content Management
 11-01-2023 12:37 Create 3 new project class
 11-01-2023 12:42 Install Microsoft.EntityFrameworkCore.Relational 5.0.17  and Microsoft.EntityFrameworkCore.SqlServer 5.0.17
-11-01-2023 12:45 
+11-01-2023 12:45 Delet Migration folder
+

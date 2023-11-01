@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\LizBook.DataAccess\LizBook.DataAccess.csproj" />
     <ProjectReference Include="..\LizBook.Models\LizBook.Models.csproj" />
+    <ProjectReference Include="..\LizBook.Utility\LizBook.Utility.csproj" />
   </ItemGroup>
 
 </Project>

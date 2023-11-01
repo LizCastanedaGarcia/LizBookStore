@@ -19,4 +19,5 @@
 11-01-2023 13:08 Add using LizBookStore.DataAccess.Data;
 11-01-2023 13:13 Create SD class in Utility Project
 11-01-2023 13:15 Change the properties public static class SD
+11-01-2023 13:17 Add 3 references to Utility project
 

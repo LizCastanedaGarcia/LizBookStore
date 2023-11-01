@@ -17,4 +17,5 @@
 11-01-2023 13:00 Rename Models folder to ViewModels
 11-01-2023 13:03 Rename namespace to namespace LizBookStore.Models.ViewModels
 11-01-2023 13:08 Add using LizBookStore.DataAccess.Data;
+11-01-2023 13:13 Create SD class in Utility Project
 

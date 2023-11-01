@@ -12,4 +12,5 @@
 11-01-2023 12:48 Install Microsoft Identity.Entity Framework Core
 11-01-2023 12:50 namespace LizBookStore.DataAccess.Data
 11-01-2023 12:52 Delete 3 class
+11-01-2023 12:53 Move Models to LizBook.Models and Delete Models
 

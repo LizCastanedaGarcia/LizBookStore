@@ -37,6 +37,8 @@
 11-03-2023 12:07 add-migration AddDefaultIdentityMigration
 11-03-2023 12:24 Change .DataAccess... I get error
 11-03-2023 13:04 I can solve the error, delete data_old and Models_old. Clean and REbuilt the solution and remove migration and I again run the command 
-11-03-2023 13:06 Migration FILE:20231103170317_AddDefaultIdentityMigration.Designer
+11-03-2023 13:06 Migration FILE:20231103170317_AddDefaultIdentityMigration.Designer and 20231103170317_AddDefaultIdentityMigration
+11-03-2023 13:10 update-database
+
 
 

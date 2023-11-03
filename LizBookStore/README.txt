@@ -33,6 +33,7 @@
 
 11-03-2023 11:58 Start Part#2
 11-03-2023 12:00 Build the application 
+11-03-2023 12:05 Create the migration,Modify the database name 
 
 
 

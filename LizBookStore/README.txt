@@ -48,6 +48,8 @@
 11-03-2023 14:02 Modify IRepository to I can be used  on the Category class to do all the CRUD
 11-03-2023 14:15 Add new code in IRepository.cs 
 11-03-2023 14:33 Copy the code in BB to Repository.cs file
+11-03-2023 14:37 Create ICategoryRepository and CategoryRepository.cs
+
 
 
 

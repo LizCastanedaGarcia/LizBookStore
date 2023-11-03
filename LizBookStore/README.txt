@@ -52,6 +52,7 @@
 11-03-2023 14:51 Typing code in CategoryRepository.cs
 11-03-2023 15:54 I correct a namespace in Repository.cs
 11-03-2023 16:00 Typing code in CategoryRepository.cs
+11-03-2023 16:13 Install NugetPackage for Dapper
 
 
 

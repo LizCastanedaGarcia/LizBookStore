@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LizBook.DataAccess.Repository.IRepository
 {
-    interface UnitOfWork : IDisposable
+    public interface IUnitOfWork : IDisposable
     {
         ICategoryRepository Category { get; }
 

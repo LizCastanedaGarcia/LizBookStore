@@ -1,5 +1,6 @@
 //using LizBookStore.Data;
-
+using LizBook.DataAccess.Repository;
+using LizBook.DataAccess.Repository.IRepository;
 using LizBookStore.DataAccess.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -36,6 +37,7 @@ namespace LizBookStore
 
             services.AddDefaultIdentity<IdentityUser>()   //options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 

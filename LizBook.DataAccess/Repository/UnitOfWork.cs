@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LizBook.DataAccess.Repository
 {
-    public class UnitOfWork 
+    public class UnitOfWork : IUnitOfWork
     {
         private readonly ApplicationDbContext _db;
 
@@ -22,5 +22,15 @@ namespace LizBook.DataAccess.Repository
         public ICategoryRepository Category { get; private set; }
 
         public ISP_Call SP_Call { get; private set; }
+
+        public void Dispose()
+        {
+            _db.Dispose();
+        }
+
+        public void Save()
+        {
+            _db.SaveChanges();
+        }
     }
 }

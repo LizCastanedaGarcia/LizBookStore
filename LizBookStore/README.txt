@@ -31,4 +31,7 @@
 11-01-2023 13:43 Delete Controllers folder
 11-01-2023 13:47 Finish Part #1 11-01-2023  13:47pm
 
+11-03-2023 11:58 Start Part#2
+11-03-2023 12:00 Build the application 
+
 

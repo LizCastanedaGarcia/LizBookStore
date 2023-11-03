@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LizBook.Models
 {
-    class Category
+    public class Category
     {
         public int Id { get; set; }
 

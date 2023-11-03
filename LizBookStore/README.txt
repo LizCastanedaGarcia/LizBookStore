@@ -42,6 +42,7 @@
 11-03-2023 13:12 Check error and run the app
 11-03-2023 13:19 Create Class Category
 11-03-2023 13:20 Run Command add-migration AddCategoryToDb
+11-03-2023 13:44 Add Category in DbContext
 
 
 

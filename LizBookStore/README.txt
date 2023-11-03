@@ -44,6 +44,8 @@
 11-03-2023 13:20 Run Command add-migration AddCategoryToDb
 11-03-2023 13:44 Add Category in DbContext
 11-03-2023 13:48 Create Repository folder and IRepository
+11-03-2023 13:54 Add a new interface with the name IRepository.cs
+
 
 
 

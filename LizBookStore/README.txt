@@ -43,6 +43,8 @@
 11-03-2023 13:19 Create Class Category
 11-03-2023 13:20 Run Command add-migration AddCategoryToDb
 11-03-2023 13:44 Add Category in DbContext
+11-03-2023 13:48 Create Repository folder and IRepository
+
 
 
 

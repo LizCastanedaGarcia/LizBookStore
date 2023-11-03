@@ -1,12 +1,14 @@
-﻿using System;
+﻿using LizBook.Models;
+using System;
 using System.Collections.Generic;
-using System.Linq;
+//using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+//using System.Threading.Tasks;
 
 namespace LizBook.DataAccess.Repository.IRepository
 {
-    interface ICategoryRepository
+    public interface ICategoryRepository : IRepository<Category>
     {
+        void Update(Category category);
     }
 }

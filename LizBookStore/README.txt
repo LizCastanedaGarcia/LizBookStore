@@ -50,6 +50,7 @@
 11-03-2023 14:33 Copy the code in BB to Repository.cs file
 11-03-2023 14:37 Create ICategoryRepository and CategoryRepository.cs
 11-03-2023 14:51 Typing code in CategoryRepository.cs
+11-03-2023 15:54 I correct a namespace in Repository.cs
 
 
 

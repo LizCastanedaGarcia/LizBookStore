@@ -45,6 +45,8 @@
 11-03-2023 13:44 Add Category in DbContext
 11-03-2023 13:48 Create Repository folder and IRepository
 11-03-2023 13:54 Add a new interface with the name IRepository.cs
+11-03-2023 14:02 Modify IRepository to I can be used  on the Category class to do all the CRUD
+
 
 
 

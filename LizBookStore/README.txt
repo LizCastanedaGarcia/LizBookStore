@@ -40,5 +40,7 @@
 11-03-2023 13:06 Migration FILE:20231103170317_AddDefaultIdentityMigration.Designer and 20231103170317_AddDefaultIdentityMigration
 11-03-2023 13:10 update-database
 11-03-2023 13:12 Check error and run the app
+11-03-2023 13:19 Create Class Category
+
 
 

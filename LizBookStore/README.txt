@@ -120,6 +120,16 @@ inside Index.cshtml
 </div>
 
 11-06-2023 10:18 Create Partial View _EditAndBackToListButton
+11-06-2023 10:22 Add the code in _EditAndBackToListButton.cshtml
+@model int
+<div class="row">
+    <div class="col">
+        <button type="submit" class="btn btn-primary form-control" asp-route-id="@model">Update</button>
+    </div>
+    <div class="col">
+        <a asp-action="Index" class="btn btn-success form-control">Back to List</a>
+    </div>
+</div>
 
 
 

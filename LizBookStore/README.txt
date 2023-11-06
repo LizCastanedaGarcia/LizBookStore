@@ -77,6 +77,7 @@
     </a>
 </div>
 inside Index.cshtml
+11-06-2023 9:27 Create category.js and add the code in BB
 
 
 

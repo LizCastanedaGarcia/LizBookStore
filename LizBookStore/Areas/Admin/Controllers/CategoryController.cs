@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace LizBookStore.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    
+
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -27,7 +27,7 @@ namespace LizBookStore.Areas.Admin.Controllers
         public IActionResult Upsert(int? id)      //action method for Upsert
         {
             Category category = new Category();   //using LizBook.Models
-            if(id == null)
+            if (id == null)
             {
                 //this is for create
                 return View(category);
@@ -38,9 +38,30 @@ namespace LizBookStore.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            return View();
+            return View(category);
 
         }
+
+        [HttpPost]
+        [AutoValidateAntiforgeryToken]
+
+        public IActionResult Upsert(Category category)
+        {
+            if (ModelState.IsValid)    //checks all validations in the modelo
+            {
+                if(category.Id == 0)
+                { 
+                _unitOfWork.Category.Add(category);
+                _unitOfWork.Save();
+            }
+            else
+            {
+                    _unitOfWork.Category.Update(category);
+            }
+        }
+        return View(category);
+    }
+
 
         //API calls here
         #region API CALLS

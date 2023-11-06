@@ -130,8 +130,17 @@ inside Index.cshtml
         <a asp-action="Index" class="btn btn-success form-control">Back to List</a>
     </div>
 </div>
-10-06-2023 10:31 Add some code in Upsert.cshtml
-
+11-06-2023 10:31 Add some code in Upsert.cshtml
+11-06-2023 10:34 Add code to Uperst.cshtml
+ @if(Model.Id != 0)
+            {
+                <partial name="_EditAndBackToListButton" model="Model.Id" /> 
+                    }
+                    else
+            {
+                <partial name="_CreateAndBackToListButton" />
+            }
+11-06-2023 10:36 
 
 
 

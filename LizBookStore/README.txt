@@ -146,7 +146,7 @@ inside Index.cshtml
 }
 
 11-06-2023 11:19 Add code to CategoryController, I have problems in SAve method
-11-06-2023 11:20 Add tho void Save method to IUnitOfWork
+11-06-2023 11:20 Add tho void Save method to IUnitOfWork.
 
 
 

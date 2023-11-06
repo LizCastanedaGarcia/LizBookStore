@@ -165,7 +165,32 @@ inside Index.cshtml
 <a onclick=Delete("/Admin/Category/Delete/${data}") class="btn btn-danger text-white" style="cursor:pointer">
                                     <i class="fas fa-trash-alt"></i>&nbsp;
 </a>
-11-06-2023 11:41 
+11-06-2023 11:41 Add function Delete 
+function Delete(url) {
+    swal({
+        title: "Are you sure you want to delete?",
+        text: "You will not be able to restore the data!",
+        icon: "warning",
+        buttons: true
+    }).then((willDelete) => {
+        if (willDelete) {
+            $.ajax({
+                type: "DELETE",
+                url: url,
+                success: function (data) {
+                    if (data.success) {
+                        toastr.success(data.message);
+                        dataTable.ajax.reload();
+                    }
+                    else {
+                        toastr.error(data.message);
+                    }
+                }
+            });
+        }
+    });
+}
+
 
 
 

@@ -62,7 +62,7 @@
 
 11-06-2023 8:26 Start Part 2.3 Category CRUD
 11-06-2023 8:55 Add a new folder in Areas/View with the name Category
-11-06-2023 8:56 Add a new Index view to the folder
+11-06-2023 8:56 Add a new Index view to the folder.
 
 
 

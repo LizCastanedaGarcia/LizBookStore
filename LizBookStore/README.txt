@@ -64,7 +64,7 @@
 11-06-2023 8:55 Add a new folder in Areas/View with the name Category
 11-06-2023 8:56 Add a new Index view to the folder.
 11-06-2023 8:59 Update the code copy and paste BB code
-11-06-2023 
+11-06-2023 9:00 Run the app and I got the same screen
 
 
 

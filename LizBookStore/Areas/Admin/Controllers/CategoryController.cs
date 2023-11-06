@@ -44,6 +44,7 @@ namespace LizBookStore.Areas.Admin.Controllers
 
         [HttpPost]
         [AutoValidateAntiforgeryToken]
+        //[ValidateAntiforgeryToken]
 
         public IActionResult Upsert(Category category)
         {

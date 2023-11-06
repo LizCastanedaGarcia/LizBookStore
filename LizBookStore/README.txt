@@ -67,6 +67,7 @@
 11-06-2023 9:00 Run the app and I got the same screen
 11-06-2023 9:04 Update the code in _Layout <a class="nav-link" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>
 11-06-2023 9:08 Update the code <a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>
+11-06-2023 9:09 Revie the changes in the navigation
 
 
 

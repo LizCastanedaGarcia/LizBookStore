@@ -161,7 +161,12 @@ inside Index.cshtml
             _unitOfWork.Save();
             return Json(new { success = true, message = "Delete successful" });
         }
-11-06-2023 11:35  
+11-06-2023 11:38 Add code to category.js 
+<a onclick=Delete("/Admin/Category/Delete/${data}") class="btn btn-danger text-white" style="cursor:pointer">
+                                    <i class="fas fa-trash-alt"></i>&nbsp;
+</a>
+11-06-2023 11:41 
+
 
 
 

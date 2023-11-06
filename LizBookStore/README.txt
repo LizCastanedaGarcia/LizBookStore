@@ -141,7 +141,11 @@ inside Index.cshtml
                 <partial name="_CreateAndBackToListButton" />
             }
 11-06-2023 10:36 Modify the line <a class="btn btn-primary" asp-action="Upsert"><i class="fas fa-plus"></i> &nbsp; Create New Category</a>
-11-06-2023 10:38 
+11-06-2023 10:54 Add @section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+
 
 
 

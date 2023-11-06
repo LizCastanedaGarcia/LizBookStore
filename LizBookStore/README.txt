@@ -190,7 +190,12 @@ function Delete(url) {
         }
     });
 }
-.
+11-06-2023 16:25 I hve problems with Create Category, I am looking for the solution.
+1. Double check all the code in Index and Upsert
+2. Correct minimun details in the code
+3. The problem was that I had 2 files Index and Privacy I haven't deleted them.
+4.Finally, I can create new category!!!!!
+11-06-2023 16:40 I am inserting new register.
 
 
 

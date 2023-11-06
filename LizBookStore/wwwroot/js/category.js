@@ -29,9 +29,6 @@ function loadDataTable() {
                                     <i class="fas fa-trash-alt"></i>&nbsp;
                                 </a>
 
-                                /*<a class="btn btn-danger text-white" style="cursor:pointer">
-                                    <i class="fas fa-trash-alt"></i>&nbsp;
-                                </a>*/
 
                             </div>
                             `;

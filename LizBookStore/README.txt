@@ -149,7 +149,19 @@ inside Index.cshtml
 11-06-2023 11:20 Add tho void Save method to IUnitOfWork.
 11-06-2023 11:26 Add code in CategoryController.cs _unitOfWork.Save();
                 return RedirectToAction(nameof(Index));  //to see all the categories
-11-06-2023 11:27 
+11-06-2023 11:33 Add in API section [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            var objFromDb = _unitOfWork.Category.Get(id);
+            if (objFromDb == null)
+            {
+                return Json(new { success = false, message = "Error while deleting" });
+            }
+            _unitOfWork.Category.Remove(objFromDb);
+            _unitOfWork.Save();
+            return Json(new { success = true, message = "Delete successful" });
+        }
+11-06-2023 11:35  
 
 
 

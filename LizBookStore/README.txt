@@ -68,6 +68,15 @@
 11-06-2023 9:04 Update the code in _Layout <a class="nav-link" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>
 11-06-2023 9:08 Update the code <a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>
 11-06-2023 9:09 Revie the changes in the navigation
+11-06-2023 9:19 Add the code <div class="text-center">
+    <a href="/Admin/Category/Upsert/id" class="btn-check btn-success text-white" style="cursor:pointer">
+        <i class="fas fa-edit"></i>&nbsp;
+    </a>
+    <a class="btn btn-danger text-white" style="cursor:pointer">
+        <i class="fas fa-trash-alt"></i>&nbsp;
+    </a>
+</div>
+inside Index.cshtml
 
 
 

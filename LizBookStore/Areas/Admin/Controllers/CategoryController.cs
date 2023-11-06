@@ -58,6 +58,8 @@ namespace LizBookStore.Areas.Admin.Controllers
             {
                     _unitOfWork.Category.Update(category);
             }
+                _unitOfWork.Save();
+                return RedirectToAction(nameof(Index));  //to see all the categories
         }
         return View(category);
     }

@@ -78,6 +78,12 @@
 </div>
 inside Index.cshtml
 11-06-2023 9:27 Create category.js and add the code in BB
+11-06-2023 9:37 Add Scripts section in Index @section Scripts{ 
+
+    <script src="~/js/category.js"></script>
+}
+
+
 
 
 

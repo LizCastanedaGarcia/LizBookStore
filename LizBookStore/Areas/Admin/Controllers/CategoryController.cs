@@ -1,4 +1,5 @@
 ﻿using LizBook.DataAccess.Repository.IRepository;
+using LizBook.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -21,6 +22,24 @@ namespace LizBookStore.Areas.Admin.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+
+        public IActionResult Upsert(int? id)      //action method for Upsert
+        {
+            Category category = new Category();   //using LizBook.Models
+            if(id == null)
+            {
+                //this is for create
+                return View(category);
+            }
+            //this for edit
+            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+            if (category == null)
+            {
+                return NotFound();
+            }
+            return View();
+
         }
 
         //API calls here

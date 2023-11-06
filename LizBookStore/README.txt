@@ -130,6 +130,7 @@ inside Index.cshtml
         <a asp-action="Index" class="btn btn-success form-control">Back to List</a>
     </div>
 </div>
+10-06-2023 10:31 Add some code in Upsert.cshtml
 
 
 

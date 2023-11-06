@@ -85,6 +85,30 @@ inside Index.cshtml
 
 11-06-2023 9:52 Add the code for action method for Upsert
 11-06-2023 10:00 Add Razor View to Upsert
+11-06-2023 10:02 Add code iin Upsert.cshtml
+<form method="post">
+    <div class="row p-3 border">
+        <div class="col-12 border-bottom">
+            <h2 class="text-primary">TITLE</h2>
+        </div>
+        <div class="col-8 pt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    NAME
+                </div>
+                <div class="col-8">
+                    TEXTBOX FOR NAME
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-8 offset-4">
+                   EDIT | BACK
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
 
 
 

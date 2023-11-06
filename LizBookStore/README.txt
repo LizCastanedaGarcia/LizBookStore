@@ -109,6 +109,17 @@ inside Index.cshtml
     </div>
 </form>
 11-06-2023 10:11 Create a new  partial view for the Edit-Back
+11-06-2023 10:15 Add code in _CreateAndBackToListButton.cshtml 
+<div class="row">
+    <div class="col">
+        <button type="submit" class="btn btn-primary form-control">Create</button>
+    </div>
+    <div class="col">
+        <a asp-action="Index" class="btn btn-success form-control">Back to List</a>
+    </div>
+</div>
+
+11-06-2023 
 
 
 

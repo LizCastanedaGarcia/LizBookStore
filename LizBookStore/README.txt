@@ -211,7 +211,7 @@ PART # 3  11-15-2023
 11-15-2023 18:34 Add CoverType in menu bar <a class="dropdown-item" asp-area="Admin" asp-controller="CoverType" asp-action="Index">CoverType</a>
 11-15-2023 18:37 Add CoverTypeController.cs and updte the code.
 11-15-2023 18:57 CreateCoverType folder 
-11-15-2023 18:58 Create Index and Upsert ffiles and update the code
+11-15-2023 18:58 Create Index and Upsert ffiles and update the code.
 
 
 

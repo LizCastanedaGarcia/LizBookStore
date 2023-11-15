@@ -202,7 +202,12 @@ function Delete(url) {
 PART # 3  11-15-2023
 
 11-15-2023 17:57 Start to create Cover Type CRUD, first create CoverType.cs.
-11-15-2023 17:59 
+11-15-2023 17:59 Create CoverTypeRepository class
+11-15-2023 18:06 Create ICoverTypeRepository.cs and add new code like ICategory.cs
+11-15-2023 18:12 Adapt the code to CoverType in UnitofWork, IUnitofWork, CoverTypeRepository, ICoverTypeRepository.
+11-15-2023 18:18 I have error in CoverTypeRepository.cs
+11-15-2023 18:25 I find the solution, I didn't change ApplicationDbContext.cs
+11-15-2023 18:28 
 
 
 

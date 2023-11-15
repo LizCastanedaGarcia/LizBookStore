@@ -199,7 +199,10 @@ function Delete(url) {
 
 
 
+PART # 3  11-15-2023
 
+11-15-2023 17:57 Start to create Cover Type CRUD, first create CoverType.cs
+11-15-2023 17:59 
 
 
 

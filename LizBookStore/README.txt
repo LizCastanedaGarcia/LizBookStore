@@ -215,6 +215,7 @@ PART # 3  11-15-2023
 11-15-2023 19:01 Update Upsert file.
 11-15-2023 19:01 Add covertype.js and update code
 11-15-2023 19:01 I have problems with Cover Type creation, double check the code.
+11-15-2023 19:30 Create Product.cs and typing the code
 
 
 

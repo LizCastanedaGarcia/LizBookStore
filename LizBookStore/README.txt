@@ -222,6 +222,7 @@ PART # 3  11-15-2023
 11-15-2023 19:40 NAME MIGRATION = 20231116003637_AddProductToDb
 11-15-2023 19:44 Update Product class, title, isbn and author are required
 11-15-2023 19:45 New migration and update database NAME= 20231116004705_AddValidationToProduct
+11-15-2023 20:03 Create code in ProductRepository.cs
 
 
 

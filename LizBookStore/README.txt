@@ -220,6 +220,7 @@ PART # 3  11-15-2023
 11-15-2023 19:35 Add migration add-migration AddProductToDb 
 11-15-2023 19:36 update-database.
 11-15-2023 19:40 NAME MIGRATION = 20231116003637_AddProductToDb
+11-15-2023 19:44 Update Product class, title, isbn and author are required
 
 
 

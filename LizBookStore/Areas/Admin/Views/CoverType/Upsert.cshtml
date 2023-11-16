@@ -1,9 +1,9 @@
-﻿@model LizBook.Models.Category;
+﻿@model LizBook.Models.CoverType;
 
 @{
     //ViewData["Title"] = "Upsert";
     Layout = "~/Views/Shared/_Layout.cshtml";
-    var title = "Create Category";
+    var title = "Create CoverType";
 }
 
 <form method="post">
@@ -12,7 +12,7 @@
         @if(Model.Id != 0)
         {
             //edit
-            title = "Edit Category";
+            title = "Edit CoverType";
         }
     <div class="col-12 border-bottom">
         <h2 class="text-primary">TITLE</h2>

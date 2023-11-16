@@ -218,7 +218,7 @@ PART # 3  11-15-2023
 11-15-2023 19:30 Create Product.cs and typing the code
 11-15-2023 19:32 Modify ApplicationDbContext.cs public DbSet<Product> Products { get; set; }
 11-15-2023 19:35 Add migration add-migration AddProductToDb 
-11-15-2023 19:36 update-database
+11-15-2023 19:36 update-database.
 
 
 

@@ -285,7 +285,7 @@ public IActionResult Upsert(int? id)      //action method for Upsert
             { "data": "price", "width": "15%" },
             { "data": "author", "width": "15%" },
             { "data": "category.Name", "width": "15%" },
-11-17-2023 15:58 
+11-17-2023 15:58 Modify Layout add  <a class="dropdown-item" href="#">Product</a>
 
 
 

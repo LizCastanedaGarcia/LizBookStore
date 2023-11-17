@@ -277,6 +277,7 @@ public IActionResult Upsert(int? id)      //action method for Upsert
 11-17-2023 14:54 I'll continue later
 11-17-2023 15:36 Modify the API call
 11-17-2023 15:46 Create Index view
+11-17-2023 15:50 Create index.cshtml for product
 
 
 

@@ -240,7 +240,40 @@ PART # 3  11-15-2023
             _hostEnvironment = hostEnvironment;
             }
 11-17-2023 14:19 Create ProductVM.cs and install Microsoft.AspNetCore.Mvc.ViewFeatures packg
-11-17-2023 14:33 
+11-17-2023 14:33 reate ProductController.cs add code 
+public IActionResult Upsert(int? id)      //action method for Upsert
+        {
+            ProductVM productVM = new ProductVM()
+            {
+                Product = new Product(),
+                CategoryList = _unitOfWork.Category.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
+
+                CoverTypeList = _unitOfWork.CoverType.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
+            };
+
+           if (id == null)
+           {
+               //this is for create
+               return View(productVM);
+    }
+
+    //this for edit
+    productVM.Product = _unitOfWork.Product.Get(id.GetValueOrDefault());
+            if (productVM.Product == null)
+            {
+                return NotFound();
+            }
+        return View(productVM);
+}
+11-17-2023 14:52 
 
 
 

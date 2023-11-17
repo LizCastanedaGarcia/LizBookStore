@@ -1,11 +1,14 @@
 ﻿using LizBook.DataAccess.Repository.IRepository;
+using LizBook.DataAccess.Repository;
 using LizBook.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using LizBook.Models.ViewModels;
 
 namespace LizBookStore.Areas.Admin.Controllers
 {
@@ -30,23 +33,38 @@ namespace LizBookStore.Areas.Admin.Controllers
 
         public IActionResult Upsert(int? id)      //action method for Upsert
         {
-            Category category = new Category();   //using LizBook.Models
-            if (id == null)
+            ProductVM productVM = new ProductVM()
             {
-                //this is for create
-                return View(category);
-            }
-            //this for edit
-            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
-            if (category == null)
+                Product = new Product(),
+                CategoryList = _unitOfWork.Category.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
+
+                CoverTypeList = _unitOfWork.CoverType.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
+            };
+
+           if (id == null)
+           {
+               //this is for create
+               return View(productVM);
+    }
+
+    //this for edit
+    productVM.Product = _unitOfWork.Product.Get(id.GetValueOrDefault());
+            if (productVM.Product == null)
             {
                 return NotFound();
             }
-            return View(category);
+        return View(productVM);
+}
 
-        }
-
-        [HttpPost]
+[HttpPost]
         [AutoValidateAntiforgeryToken]
         //[ValidateAntiforgeryToken]
 

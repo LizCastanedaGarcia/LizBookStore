@@ -10,6 +10,8 @@ namespace LizBook.DataAccess.Repository.IRepository
     {
         ICategoryRepository Category { get; }
         ICoverTypeRepository CoverType { get; }
+
+        IProductRepository Product { get; }         //add for Product
         ISP_Call SP_Call { get; }
 
         void Save();

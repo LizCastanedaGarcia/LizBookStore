@@ -287,6 +287,7 @@ public IActionResult Upsert(int? id)      //action method for Upsert
             { "data": "category.Name", "width": "15%" },
 11-17-2023 15:58 Modify Layout add  <a class="dropdown-item" href="#">Product</a>
 11-17-2023 16:17 Create Upsert.cshtml
+11-17-2023 16:22 Stop until here I will continue later
 
 
 

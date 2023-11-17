@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33801.447
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LizBookStore", "LizBookStore\LizBookStore.csproj", "{B4433E40-8DA1-4322-9F9A-C831FEF87727}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LizBookStore", "LizBookStore\LizBookStore.csproj", "{B4433E40-8DA1-4322-9F9A-C831FEF87727}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LizBook.DataAccess", "LizBook.DataAccess\LizBook.DataAccess.csproj", "{F3F95D36-5C2A-455E-83A7-283FEA76D66F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LizBook.DataAccess", "LizBook.DataAccess\LizBook.DataAccess.csproj", "{F3F95D36-5C2A-455E-83A7-283FEA76D66F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LizBook.Models", "LizBook.Models\LizBook.Models.csproj", "{29F2682A-C0A1-4F31-B699-DB1A97523B35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LizBook.Models", "LizBook.Models\LizBook.Models.csproj", "{29F2682A-C0A1-4F31-B699-DB1A97523B35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LizBook.Utility", "LizBook.Utility\LizBook.Utility.csproj", "{8DD667B2-84BE-41B8-8F81-233688DE6481}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LizBook.Utility", "LizBook.Utility\LizBook.Utility.csproj", "{8DD667B2-84BE-41B8-8F81-233688DE6481}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

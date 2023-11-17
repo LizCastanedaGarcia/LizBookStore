@@ -226,6 +226,9 @@ PART # 3  11-15-2023
 11-17-2023 13:18 I hve problems with Product, I deleted all about Product and I am going to start agian.
 11-17-2023 13:30 Create Product.cs
 11-17-2023 13:32 Add References to ApplicationDbContext.cs
+11-17-2023 13:34 add-migration addProductToDb and update database 20231117183643_addProductToDb.Designer
+
+
 
 
 

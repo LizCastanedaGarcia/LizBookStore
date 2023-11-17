@@ -275,6 +275,8 @@ public IActionResult Upsert(int? id)      //action method for Upsert
 }
 11-17-2023 14:52 Comment  public IActionResult Upsert(Category category)
 11-17-2023 14:54 I'll continue later
+11-17-2023 15:36 Modify the API call
+
 
 
 

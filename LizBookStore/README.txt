@@ -273,7 +273,8 @@ public IActionResult Upsert(int? id)      //action method for Upsert
             }
         return View(productVM);
 }
-11-17-2023 14:52 
+11-17-2023 14:52 Comment  public IActionResult Upsert(Category category)
+11-17-2023 14:54 
 
 
 

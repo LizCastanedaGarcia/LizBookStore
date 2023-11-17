@@ -68,24 +68,24 @@ namespace LizBookStore.Areas.Admin.Controllers
         [AutoValidateAntiforgeryToken]
         //[ValidateAntiforgeryToken]
 
-        public IActionResult Upsert(Category category)
-        {
-            if (ModelState.IsValid)    //checks all validations in the modelo
-            {
-                if(category.Id == 0)
-                { 
-                _unitOfWork.Category.Add(category);
-                _unitOfWork.Save();
-            }
-            else
-            {
-                    _unitOfWork.Category.Update(category);
-            }
-                _unitOfWork.Save();
-                return RedirectToAction(nameof(Index));  //to see all the categories
-        }
-        return View(category);
-    }
+    //    public IActionResult Upsert(Category category)
+    //    {
+    //        if (ModelState.IsValid)    //checks all validations in the modelo
+    //        {
+    //            if(category.Id == 0)
+    //            { 
+    //            _unitOfWork.Category.Add(category);
+    //            _unitOfWork.Save();
+    //        }
+    //        else
+    //        {
+    //                _unitOfWork.Category.Update(category);
+    //        }
+    //            _unitOfWork.Save();
+    //            return RedirectToAction(nameof(Index));  //to see all the categories
+    //    }
+    //    return View(category);
+    //}
 
 
         //API calls here

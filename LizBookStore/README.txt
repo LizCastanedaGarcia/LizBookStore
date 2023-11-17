@@ -239,7 +239,8 @@ PART # 3  11-15-2023
             _unitOfWork = unitOfWork;
             _hostEnvironment = hostEnvironment;
             }
-11-17-2023 14:19 
+11-17-2023 14:19 Create ProductVM.cs and install Microsoft.AspNetCore.Mvc.ViewFeatures packg
+11-17-2023 14:33 
 
 
 

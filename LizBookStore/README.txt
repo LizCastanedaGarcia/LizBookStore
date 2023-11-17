@@ -278,7 +278,14 @@ public IActionResult Upsert(int? id)      //action method for Upsert
 11-17-2023 15:36 Modify the API call
 11-17-2023 15:46 Create Index view
 11-17-2023 15:50 Create index.cshtml for product
-
+11-17-2023 15:56 Modify code in product.js 
+ "columns": [
+            { "data": "title", "width": "15%" },
+            { "data": "isbn", "width": "15%" },
+            { "data": "price", "width": "15%" },
+            { "data": "author", "width": "15%" },
+            { "data": "category.Name", "width": "15%" },
+11-17-2023 15:58 
 
 
 

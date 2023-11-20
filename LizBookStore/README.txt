@@ -291,7 +291,8 @@ public IActionResult Upsert(int? id)      //action method for Upsert
 
 11-20-2023 I start again, I have error in Product-Upsert, I am trying to solve it
 11-20-2023 Create an account in tiny.cloud I use the API
-11-20-2023 
+11-20-2023 Type function validateInput
+
 
 
 

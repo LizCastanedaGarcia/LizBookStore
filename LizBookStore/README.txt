@@ -289,6 +289,9 @@ public IActionResult Upsert(int? id)      //action method for Upsert
 11-17-2023 16:17 Create Upsert.cshtml
 11-17-2023 16:22 Stop until here I will continue later
 
+11-20-2023 I start again, I have error in Product-Upsert, I am trying to solve it
+
+
 
 
 

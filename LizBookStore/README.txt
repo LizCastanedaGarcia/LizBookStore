@@ -295,6 +295,8 @@ public IActionResult Upsert(int? id)      //action method for Upsert
 11-20-2023 Create folder images/products in wwwroot
 11-20-2023 Uncomment function public IActionResult Upsert(Product product) in ProducController.cs
 11-20-2023 I have some problems I try to solve them
+11-20-2023 I had error in Upsert Prodcut because I missed a }
+11-20-2023 In ProductController I commented //var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category, CoverType");
 
 
 

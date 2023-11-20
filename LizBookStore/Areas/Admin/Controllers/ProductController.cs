@@ -93,7 +93,8 @@ namespace LizBookStore.Areas.Admin.Controllers
         {
             //return NotFound();
             //var allObj = _unitOfWork.Category.GetAll();
-            var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category, CoverType");
+            //var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category, CoverType");
+            var allObj = _unitOfWork.Product.GetAll();
             return Json(new { data = allObj });
         }
 

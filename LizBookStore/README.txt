@@ -293,6 +293,7 @@ public IActionResult Upsert(int? id)      //action method for Upsert
 11-20-2023 Create an account in tiny.cloud I use the API
 11-20-2023 Type function validateInput
 11-20-2023 Create folder images/products in wwwroot
+11-20-2023 Uncomment function public IActionResult Upsert(Product product) in ProducController.cs
 
 
 

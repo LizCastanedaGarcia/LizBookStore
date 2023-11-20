@@ -65,29 +65,26 @@ namespace LizBookStore.Areas.Admin.Controllers
         return View(productVM);
 }
 
-[HttpPost]
+        [HttpPost]
         [AutoValidateAntiforgeryToken]
-        //[ValidateAntiforgeryToken]
-
-    //    public IActionResult Upsert(Category category)
-    //    {
-    //        if (ModelState.IsValid)    //checks all validations in the modelo
-    //        {
-    //            if(category.Id == 0)
-    //            { 
-    //            _unitOfWork.Category.Add(category);
-    //            _unitOfWork.Save();
-    //        }
-    //        else
-    //        {
-    //                _unitOfWork.Category.Update(category);
-    //        }
-    //            _unitOfWork.Save();
-    //            return RedirectToAction(nameof(Index));  //to see all the categories
-    //    }
-    //    return View(category);
-    //}
-
+      public IActionResult Upsert(Product product)
+        {
+            if (ModelState.IsValid)    //checks all validations in the modelo
+            {
+                if(product.id == 0)
+                { 
+                _unitOfWork.Product.Add(product);
+                
+            }
+            else
+            {
+                    _unitOfWork.Product.Update(product);
+            }
+                _unitOfWork.Save();
+                return RedirectToAction(nameof(Index));  //to see all the categories
+        }
+        return View(product);
+    }
 
         //API calls here
         #region API CALLS

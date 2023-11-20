@@ -294,6 +294,7 @@ public IActionResult Upsert(int? id)      //action method for Upsert
 11-20-2023 Type function validateInput
 11-20-2023 Create folder images/products in wwwroot
 11-20-2023 Uncomment function public IActionResult Upsert(Product product) in ProducController.cs
+11-20-2023 I have some problems I try to solve them
 
 
 

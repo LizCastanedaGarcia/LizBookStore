@@ -315,7 +315,12 @@ public IActionResult Upsert(int? id)      //action method for Upsert
                 objFromDb.Price100 = product.Price100;
                 objFromDb.Price50 = product.Price50;
                 //****
-11-23-2023 18:55
+11-23-2023 18:54 Update product.js
+  //new
+            { "data": "Price", "width": "15%" },
+            { "data": "Price100", "width": "15%" },
+            { "data": "Price50", "width": "15%" },
+            //******
 
 
 

@@ -299,6 +299,10 @@ public IActionResult Upsert(int? id)      //action method for Upsert
 11-20-2023 In ProductController I commented //var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category, CoverType");
 11-20-2023 I have an error but I don't find the solution
 
+*****PART 4*****
+11-23-2023 18:30 Start Part4
+11-23-2023 18:33 
+
 
 
 

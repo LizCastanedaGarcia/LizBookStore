@@ -305,6 +305,11 @@ public IActionResult Upsert(int? id)      //action method for Upsert
 11-23-2023 18:34 add Migration addPriceToProductDb
 11-23-2023 18:45 update-database
 11-23-2023 18:49 Update with new properties Upsert.cshtml
+11-23-2023 18:51 Update Index.cshtml 
+                <th>Price</th>
+                <th>Price100</th>
+                <th>Price50</th>
+11-23-2023 18:52
 
 
 

@@ -26,10 +26,11 @@ namespace LizBook.Models
         [Required]
         [Range(1,10000)]
         public double ListPrice { get; set; }
+
         //new fields
         [Required]
         [Range(1, 10000)]
-        public double Price { get; set; }
+        public double Pricenew { get; set; }
         [Required]
         [Range(1, 10000)]
         public double Price50 { get; set; }

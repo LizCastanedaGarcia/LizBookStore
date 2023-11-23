@@ -309,7 +309,13 @@ public IActionResult Upsert(int? id)      //action method for Upsert
                 <th>Price</th>
                 <th>Price100</th>
                 <th>Price50</th>
-11-23-2023 18:52
+11-23-2023 18:53 Update ProductRepository.cs 
+ //new
+                objFromDb.Price = product.Price;
+                objFromDb.Price100 = product.Price100;
+                objFromDb.Price50 = product.Price50;
+                //****
+11-23-2023 18:55
 
 
 

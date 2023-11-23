@@ -38,6 +38,11 @@ namespace LizBook.DataAccess.Repository
                 objFromDb.ListPrice = product.ListPrice;
                 objFromDb.CategoryId = product.CategoryId;
                 objFromDb.CoverTypeId = product.CoverTypeId;
+                //new
+                objFromDb.Pricenew = product.Pricenew;
+                objFromDb.Price100 = product.Price100;
+                objFromDb.Price50 = product.Price50;
+                //****
 
             }
 

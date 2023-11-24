@@ -321,6 +321,7 @@ public IActionResult Upsert(int? id)      //action method for Upsert
             { "data": "Price100", "width": "15%" },
             { "data": "Price50", "width": "15%" },
             //******
+11-23-2023 19:02 Build and check errors, no errors the run the application
 
 
 

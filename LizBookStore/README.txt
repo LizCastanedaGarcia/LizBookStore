@@ -302,7 +302,7 @@ public IActionResult Upsert(int? id)      //action method for Upsert
 *****PART 4*****
 11-23-2023 18:30 Start Part4
 11-23-2023 18:33 Update the Product Class in order to add new properties (price,price50,price100) 
-11-23-2023 18:34 add Migration addPriceToProductDb
+11-23-2023 18:34 add Migration addPriceToProductDb  20231123234347_addPricenewToProductDb
 11-23-2023 18:45 update-database
 11-23-2023 18:49 Update with new properties Upsert.cshtml
 11-23-2023 18:51 Update Index.cshtml 

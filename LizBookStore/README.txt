@@ -327,6 +327,7 @@ public IActionResult Upsert(int? id)      //action method for Upsert
 11-27-2023 15:19 New migration to Product ====>> 20231127201654_addProductToDb
 11-27-2023 15:50 I'll continue later
 11-27-2023 16:11 Update HomeController.cs 
+11-27-2023 17:15 Change the text book's to book
 
 
 

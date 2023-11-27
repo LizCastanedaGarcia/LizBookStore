@@ -2,22 +2,23 @@
 
 namespace LizBook.DataAccess.Migrations
 {
-    public partial class addPricenewToProductDb : Migration
+    public partial class addProductToDb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.RenameColumn(
+            migrationBuilder.AddColumn<double>(
                 name: "Price",
                 table: "Products",
-                newName: "Pricenew");
+                type: "float",
+                nullable: false,
+                defaultValue: 0.0);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.RenameColumn(
-                name: "Pricenew",
-                table: "Products",
-                newName: "Price");
+            migrationBuilder.DropColumn(
+                name: "Price",
+                table: "Products");
         }
     }
 }

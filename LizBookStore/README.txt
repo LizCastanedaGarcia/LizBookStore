@@ -323,7 +323,8 @@ public IActionResult Upsert(int? id)      //action method for Upsert
             //******
 11-23-2023 19:02 Build and check errors, no errors the run the application
 11-27-2023 15:01 I continue with the assignment
-11-27-2023 15:04 I delete two prices in the files and migration, I just should have price and price50
+11-27-2023 15:04 I delete two prices in the files and migration, I just should have price and price
+11-27-2023 15:19 New migration to Product ====>> 20231127201654_addProductToDb
 
 
 

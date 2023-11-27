@@ -91,7 +91,7 @@
                     <input type="file" name="files" id="uploadBox" multiple class="form-control" />
                 </div>
             </div>
-            @*//new*@ 
+            @*//new*@
             <div class="form-group row">
                 <div class="col-4">
                     <label asp-for="Product.Price"></label>
@@ -102,7 +102,7 @@
                 </div>
             </div>
 
-            
+
             @*//new----------------------------*@
 
             <div class="form-group row">
@@ -125,6 +125,12 @@
                 </div>
             </div>
         </div>
+        @if (Model.Product.id != 0)
+        {
+            <div class="col-3 offset-1 pt-4">
+                <img src="@Model.Product.ImageUrl" style="border-radius:5px; border:1px solid #bbb9b9" />
+            </div>
+        }
     </div>
 </form>
 

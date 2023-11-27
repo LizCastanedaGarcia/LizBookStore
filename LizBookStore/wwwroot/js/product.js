@@ -19,7 +19,7 @@ function loadDataTable() {
             { "data": "isbn", "width": "15%" },
             { "data": "price", "width": "15%" },
             { "data": "author", "width": "15%" },
-            { "data": "category.Name", "width": "15%" },
+            { "data": "category.name", "width": "15%" },
             //{ "data": "covertype.Name", "width": "15%" },
             //{ "data": "ImageUrl", "width": "15%" },
             //new

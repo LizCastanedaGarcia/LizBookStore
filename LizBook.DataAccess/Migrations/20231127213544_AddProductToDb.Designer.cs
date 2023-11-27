@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LizBook.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231117185059_addValidationToProduct")]
-    partial class addValidationToProduct
+    [Migration("20231127213544_AddProductToDb")]
+    partial class AddProductToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -83,6 +83,9 @@ namespace LizBook.DataAccess.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("ListPrice")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Price")
                         .HasColumnType("float");
 
                     b.Property<string>("Title")

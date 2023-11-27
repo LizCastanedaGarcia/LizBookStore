@@ -20,6 +20,8 @@ function loadDataTable() {
             { "data": "price", "width": "15%" },
             { "data": "author", "width": "15%" },
             { "data": "category.Name", "width": "15%" },
+            //{ "data": "covertype.Name", "width": "15%" },
+            //{ "data": "ImageUrl", "width": "15%" },
             //new
             { "data": "Price", "width": "15%" },
             

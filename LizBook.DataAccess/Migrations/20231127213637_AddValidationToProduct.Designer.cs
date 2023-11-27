@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LizBook.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231127201654_addProductToDb")]
-    partial class addProductToDb
+    [Migration("20231127213637_AddValidationToProduct")]
+    partial class AddValidationToProduct
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

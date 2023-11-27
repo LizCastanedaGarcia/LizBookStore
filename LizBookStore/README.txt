@@ -329,6 +329,7 @@ public IActionResult Upsert(int? id)      //action method for Upsert
 11-27-2023 16:11 Update HomeController.cs 
 11-27-2023 17:15 Change the text book's to book
 11-27-2023 17:31 Modify a letter in js Name for name
+11-27-2023 17:36 I can't solve the error
 
 
 

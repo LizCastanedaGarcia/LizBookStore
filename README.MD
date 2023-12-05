@@ -42,3 +42,12 @@ Create Product complete
 Populate Product database with min. 3 books.
 Application runs in a browser as expected (Product database displays on Home Page)
 Due Date: Tuesday, November 28
+
+Part#5
+This is the submission point for the fifth and final part (5%) of Assignment 2 (25%).
+Submit only the GitHub repository URL link to your code. Make sure the repo is 'public' (accessing the link will be a determining factor for recieveing full marks) and the detailed README journaling your build (with proper dates & times) is easily accessible (i.e. at the root folder of the project, viewable in the Solution Explorer).
+* Application is to build and execute (viewable in a browser with no errors and the product items displaying on the 'home' page) as expected.
+Additional +1 bonus mark assigned for 'optional' URL to the application running on Azure: Publish a Web app to Azure App Service using Visual Studio
+DUE DATE: Tuesday, December 5 @ 4:59pm ET
+
+
